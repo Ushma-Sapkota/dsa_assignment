@@ -9,7 +9,7 @@ parentheses or not?*/
 char stack[MAX];
 int top=-1; //initialize top element to -1 i.e empty stack
 
-//check i stack is empty
+//check if stack is empty
 int isEmpty(){
     return top==-1;
 }
